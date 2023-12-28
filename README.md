@@ -1,8 +1,5 @@
-# CodableDiff
+# JSONPath
 
 ```swift
-import CodableDiff
-
-Diff(from: x, to: y)
-
+json[".teams.[0].members.[0].imageUrl", as: URL.self]
 ```
